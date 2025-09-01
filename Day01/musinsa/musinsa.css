@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  /* border: 1px solid yellow; */
+}
+.story {
+  width: 100px;
+  /* border: 1px solid blue; */
+}
+.image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  /* border: 1px solid red; */
+  /* display: block; */
+}
+.font {
+  margin-top: -5px;
+  font-size: 5px;
+  font-weight: 1000;
+}

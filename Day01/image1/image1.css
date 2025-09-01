@@ -1,0 +1,11 @@
+.image {
+  width: 200px;
+  height: 200px;
+  border-radius: 200px;
+  border: 10px solid pink;
+  padding: 10px;
+  object-fit: cover;
+}
+.font {
+  margin-left: 40px;
+}
