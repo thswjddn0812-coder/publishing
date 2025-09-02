@@ -1,7 +1,7 @@
 .car {
   background-color: #f7f8fb;
-  padding: 14px 20px 14px 20px;
-  width: 400px;
+  padding: 40px;
+  width: 350px;
 }
 .car > h3 {
   text-align: center;
@@ -36,14 +36,32 @@
   color: #7f7f7f;
   font-weight: 700;
 }
-.mycar {
+.car > .interaction {
+  padding-top: 20px;
   display: flex;
-  flex-direction: row;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
 }
-.font {
-  margin-top: 20px;
+.car > .interaction > .make {
   background-color: #002c5f;
   color: white;
   padding: 10px 35px 10px 35px;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+  width: 150px;
+}
+.car > .interaction > .navi {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+}
+.car > .interaction > .navi > .circle {
+  width: 12px;
+  height: 12px;
+  border-radius: 9999px;
+  background-color: #007fa8;
 }
