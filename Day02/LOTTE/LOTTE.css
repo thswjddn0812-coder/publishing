@@ -1,0 +1,36 @@
+.choice {
+  background-color: rgb(221, 224, 227);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 5px 10px 5px 10px;
+}
+.title {
+  font-weight: 700;
+  font-size: 20px;
+}
+.container {
+  /* display: flex; */
+}
+.menu {
+  display: flex;
+}
+.selected {
+  color: white;
+  background-color: #00a5b9;
+}
+.photo {
+  width: 100%;
+  border: 1px solid #eff1f3;
+  border-radius: 4px;
+  background-color: white;
+  padding: 15px;
+}
+.burger {
+  width: 200px;
+  padding-right: 50px;
+}
+.photo > img {
+  width: 100%;
+  object-fit: contain;
+}
