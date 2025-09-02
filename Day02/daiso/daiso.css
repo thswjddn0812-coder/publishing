@@ -10,6 +10,10 @@
   object-fit: cover;
 }
 .icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
   border-radius: 999px;
   background-color: #d2000571;
   width: 50px;

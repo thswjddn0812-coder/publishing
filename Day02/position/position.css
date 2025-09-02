@@ -8,6 +8,21 @@
   height: 100px;
   background-color: skyblue;
   position: relative;
-  left: 10px;
-  top: 10px;
+  z-index: 1;
+}
+.minibox1 {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  position: relative;
+  bottom: 50px;
+  z-index: 2;
+}
+.minibox2 {
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+  position: relative;
+  bottom: 100px;
+  z-index: 3;
 }

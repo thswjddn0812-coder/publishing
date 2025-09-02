@@ -1,0 +1,49 @@
+.car {
+  background-color: #f7f8fb;
+  padding: 14px 20px 14px 20px;
+  width: 400px;
+}
+.car > h3 {
+  text-align: center;
+  font-size: 30px;
+}
+.car > photo {
+  width: 100%;
+  height: 150px;
+}
+.car > photo > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.info > .option {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 15px;
+  border-bottom: 1px solid #cccc;
+  padding-bottom: 15px;
+}
+.info > .option > .title {
+  font-weight: 700;
+}
+.info > .option > .value {
+  color: #7f7f7f;
+  font-weight: 700;
+}
+.mycar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.font {
+  margin-top: 20px;
+  background-color: #002c5f;
+  color: white;
+  padding: 10px 35px 10px 35px;
+}
