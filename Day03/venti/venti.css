@@ -1,0 +1,72 @@
+.card {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+section > .photo {
+  width: 100%;
+  height: 100%;
+  transition: all 1s;
+}
+section > .card {
+  border: 1px solid #dddd;
+  overflow: hidden;
+}
+section {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+  overflow: hidden;
+  padding-bottom: 10px;
+  margin-top: 50px;
+  padding-top: 10px;
+}
+section > .card:hover {
+  border: 3px solid red;
+}
+.new > span {
+  width: 40px;
+  height: 40px;
+  border-radius: 999px;
+  background-color: orange;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 12px;
+}
+.bread {
+  font-size: 12px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.card:hover > .photo > img {
+  transform: scale(1.1);
+}
+img {
+  transition: all 1s;
+}
+.circle {
+  width: 5px;
+  height: 5px;
+  background-color: blue;
+  border: none;
+  border-radius: 999px;
+}
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+}

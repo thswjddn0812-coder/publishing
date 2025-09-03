@@ -1,0 +1,13 @@
+.decoration {
+  width: 100px;
+  height: 50px;
+  background-color: skyblue;
+  border-radius: 30px;
+  border: none;
+}
+button {
+  color: white;
+}
+.decoration:hover {
+  background-color: blue;
+}

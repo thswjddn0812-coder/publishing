@@ -1,0 +1,112 @@
+.flex {
+  display: flex;
+  gap: 200px;
+  padding: 50px;
+  justify-content: space-around;
+}
+.flex > .card {
+  flex-direction: column;
+  align-items: center;
+}
+.flex > .card > .photo {
+  width: 100%;
+}
+.circle {
+  border-radius: 999px;
+  width: 12px;
+  height: 12px;
+  border: 1px solid black;
+}
+.red {
+  background-color: red;
+}
+.blue {
+  background-color: blue;
+}
+.yellow {
+  background-color: yellow;
+}
+.green {
+  background-color: green;
+}
+.black {
+  background-color: black;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  padding-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  /* border: 1px solid red; */
+}
+.pay {
+  border: none;
+  color: blue;
+  background-color: transparent;
+  border-radius: 20px;
+  padding: 11px 22px;
+  font-size: 17px;
+}
+.title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  /* border: 1px solid red; */
+  margin-bottom: 50px;
+}
+section {
+  padding: 50px;
+  background-color: #f7f8fb;
+}
+.title > h1 {
+  font-size: 56px;
+  font-weight: 700;
+  color: #1d1d1f;
+}
+.title > span {
+  color: #0066cc;
+}
+.flex > .card {
+  display: flex;
+  flex-direction: column;
+}
+.name {
+  font-size: 28px;
+  font-weight: 700;
+  color: #1d1d1f;
+  margin-bottom: 40px;
+}
+.sub {
+  color: #1d1d1f;
+  margin-bottom: 20px;
+}
+.price {
+  color: #1b1b1f;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 20px;
+}
+.more {
+  border: none;
+  color: white;
+  background-color: #0076df;
+  border-radius: 20px;
+  padding: 11px 22px;
+  font-size: 17px;
+}
+.photo:hover {
+  transition: all 1s;
+  transform: scale(1.05);
+}
+.title > span:hover {
+  text-decoration: underline;
+}
