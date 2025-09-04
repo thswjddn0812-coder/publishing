@@ -1,0 +1,9 @@
+section {
+  height: 100vh;
+  border: 5px solid red;
+}
+.first {
+  background-image: url(이디야.png);
+  background-size: cover;
+  background-position: 10% 10%;
+}

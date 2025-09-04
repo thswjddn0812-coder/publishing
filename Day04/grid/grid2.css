@@ -1,0 +1,34 @@
+section {
+  height: 100vh;
+  display: gird;
+  grid-template-columns: (5, 1fr);
+}
+.box {
+  width: 100%; /*25도 상관없음*/
+  height: 100%;
+  background-color: red;
+  border: 1px solid blue;
+  position: relative;
+}
+.box > .name {
+  color: white;
+  font-weight: bold;
+  right: 5px;
+  bottom: 5px;
+  position: absolute;
+}
+.box > .sub {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.box > .sub > button {
+  border: 2px solid white;
+  padding: 20px 50px;
+  font-weight: 700;
+}

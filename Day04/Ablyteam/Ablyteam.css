@@ -1,0 +1,46 @@
+header {
+  height: 80px;
+}
+.navigation {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  padding: 0 auto;
+  align-items: center;
+  justify-content: center;
+  gap: 300px;
+  border-bottom: 1px solid black;
+}
+nav > img {
+  height: 20%;
+}
+nav > .title {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.title > button {
+  border: none;
+  background-color: transparent;
+  padding: 10px 15px 10px 15px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.title > button:hover {
+  border-radius: 20px;
+  background-color: #cecece;
+}
+.color {
+  color: #ff5160;
+}
+.title > button {
+  font-weight: 700;
+}
+section {
+  height: 100vh;
+}
+.first {
+  background-image: url(photo-1483653364400-eedcfb9f1f88.avif);
+  background-size: cover;
+}
