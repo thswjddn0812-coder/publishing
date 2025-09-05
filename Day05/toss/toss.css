@@ -1,0 +1,35 @@
+header {
+  position: fixed;
+  width: 100%;
+}
+header > nav {
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 1200px;
+  /* border: 1px solid red; */
+  margin: 0 auto;
+  background-color: transparent;
+  width: 100%;
+}
+nav > img {
+  height: 70%;
+  object-fit: contain;
+  /* margin-left: 300px; */
+}
+nav > ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  /* margin-right: 400px; */
+}
+ul > li {
+  padding: 10px 16px;
+  border-radius: 10px;
+}
+ul > li:hover {
+  background-color: #eeee;
+}

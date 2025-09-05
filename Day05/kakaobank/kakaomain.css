@@ -1,0 +1,73 @@
+.first {
+  height: 100vh;
+  background-image: url(https://www.kakaobank.com/static/images/web/renewal/main-bg3.png);
+  background-size: cover;
+  background-position: 70% 70%;
+  /* background-repeat: no-repeat; */
+}
+.first > .container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 200px;
+  padding-left: 400px;
+}
+.container > div > h1 {
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  line-height: 70px;
+}
+.container > div > h3 {
+  line-height: 30px;
+  padding-bottom: 50px;
+}
+div > button {
+  background-color: white;
+  border: none;
+  padding: 20px 30px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+div > button > span {
+  font-size: 20px;
+  font-weight: 700;
+}
+div > button > i {
+  font-size: 30px;
+}
+.gap {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.second {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.second > article > img {
+  width: 473px;
+}
+article > div > h1 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  line-height: 50px;
+}
+article > div > p {
+  font-weight: 300;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+.background-button {
+  background-color: #f6f6f6;
+  padding: 15px 25px;
+  /* border: 1px solid red; */
+}
+.input {
+  font-weight: 300;
+  font-size: 18px;
+}
