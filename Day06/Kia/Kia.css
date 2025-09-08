@@ -1,0 +1,39 @@
+section {
+  max-width: 1200px;
+  height: 70vh;
+  /* border: 1px solid red; */
+  margin: 100px auto;
+}
+section > div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  /* border: 1px solid red; */
+}
+section > div > article {
+  width: 2 0%;
+  max-width: 200px;
+  padding: 20px;
+  height: 200px;
+  /* border: 1px solid red; */
+  background-color: #f8f8f8;
+}
+.center {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+article {
+  position: relative;
+}
+@media screen and (max-width: 768px) {
+  section > div {
+    flex-direction: column;
+    gap: 10px;
+    padding: 50px;
+    /* max-width: 400px; */
+  }
+}

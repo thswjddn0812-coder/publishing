@@ -1,0 +1,30 @@
+section {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.column {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+}
+@media screen and (max-width: 800px) {
+  .column {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 600px) {
+  section {
+    flex-direction: column;
+  }
+  .column {
+    display: flex;
+    flex-direction: column;
+  }
+}

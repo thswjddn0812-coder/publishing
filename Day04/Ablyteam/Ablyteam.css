@@ -44,3 +44,14 @@ section {
   background-image: url(photo-1483653364400-eedcfb9f1f88.avif);
   background-size: cover;
 }
+@media screen and (max-width: 800px) {
+  .title > button {
+    opacity: 0;
+  }
+  .hi {
+    opacity: 1;
+  }
+}
+.hi {
+  opacity: 0;
+}
