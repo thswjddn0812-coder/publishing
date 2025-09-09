@@ -3,29 +3,64 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="../Reset.css" />
-    <link rel="stylesheet" href="index__head.css" />
-    <link rel="stylesheet" href="index__main.css" />
+    <link rel="stylesheet" href="css/index__head.css" />
+    <link rel="stylesheet" href="css/index__main.css" />
+    <link rel="stylesheet" href="css/index__grid.css" />
+    <link rel="stylesheet" href="css/index__media.css" />
     <title>Document</title>
   </head>
   <body>
     <header>
       <nav>
-        <h1 class="logBox">Movies</h1>
+        <h1 class="logBox">SON</h1>
         <ul>
-          <li>꿀잼</li>
-          <li>개초딩</li>
-          <li>유치함</li>
-          <li>하지만</li>
-          <li>난 볼만했음</li>
+          <li>내</li>
+          <li>목표는</li>
+          <li>26년짜리</li>
+          <li>계획이다</li>
+          <li>라고할뻔</li>
+          <li class="hamburger"><i class="ri-menu-line"></i></li>
         </ul>
       </nav>
     </header>
     <main>
       <section class="topbanner">
-        <picture class="lmgBox">
-          <img src="profile2.jpg" alt="" />
+        <picture class="imgBox">
+          <img
+            src="https://cdn.edujin.co.kr/news/photo/202312/44466_87289_1541.png"
+            alt=""
+          />
         </picture>
+      </section>
+      <section class="info_list">
+        <div class="info__movies">
+          <h2>소개</h2>
+          <h6>
+            | 웹 개발에 진심이고, 유치한(?) 영화를 보며 리프레시하는 사람입니다.
+          </h6>
+        </div>
+        <div class="info_list-box">
+          <article class="info_list-box-size">
+            <i class="ri-home-2-fill"></i>
+            <h1>HOME</h1>
+            <h6>인천 25년 거주중</h6>
+          </article>
+          <article class="info_list-box-size">
+            <i class="ri-movie-2-fill"></i>
+            <h1>MOVIES</h1>
+            <h6>좋아하는 영화 소개</h6>
+          </article>
+          <article class="info_list-box-size">
+            <i class="ri-pencil-fill"></i>
+            <h1>goal</h1>
+            <h6>취업 목표</h6>
+          </article>
+        </div>
       </section>
       <section class="info">
         <div class="info__movies">
@@ -36,25 +71,132 @@
       <section class="info__movies-list">
         <div class="info__movies-box">
           <article class="info__movies-card">
-            <img class="info__movies-img" src="movie.jpg" alt="" />
-            <p>개추요</p>
+            <div class="info__movies-card-screen">
+              <p>헐크</p>
+            </div>
+            <a
+              class="info__movies-card-size"
+              href="https://www.youtube.com/watch?v=9G-18ICXDR8"
+            >
+              <video
+                class="info__movies-video"
+                muted
+                autoplay
+                loop
+                src="https://mblogvideo-phinf.pstatic.net/MjAyMDA2MjFfMTU2/MDAxNTkyNzI3ODk3MjUy.rNGR0O8Wz8JiTkotqwd5QOrN7QVTrAnZQ2Q1Gz6cSEsg.WxFBq4Mmyn1_rYhZZaSESLLc_kFX09mTRwgM59vk_0Qg.GIF.freebird07/BogusHarshCreature-size_restricted.gif?type=mp4w800"
+              ></video>
+            </a>
           </article>
           <article class="info__movies-card">
-            <img class="info__movies-img" src="movie2.jpg" alt="" />
-            <p>개추요</p>
+            <div class="info__movies-card-screen">
+              <p>에이리언</p>
+            </div>
+            <a
+              class="info__movies-card-size"
+              href="https://www.youtube.com/watch?v=VAUhWa8hm8M"
+            >
+              <img
+                class="info__movies-img"
+                src="https://dcimg1.dcinside.com/viewimage.php?id=2ab2da2ff7d333a767b5c3&no=24b0d769e1d32ca73ceb81fa11d02831ec6fc61317e610776c2e363a75511895f37285dc5f3a86f96b41cf69c157f8f9046c228ff92ebb8cc7de4ba4d5519ae15f564bf306fc2239a7ab5023b70a48a040a0a815258202e5477587c84434f06ceb"
+                alt=""
+              />
+            </a>
           </article>
           <article class="info__movies-card">
-            <img class="info__movies-img spacial" src="profile2.jpg" alt="" />
-            <p>개추요</p>
+            <div class="info__movies-card-screen">
+              <p>쥬라기 월드</p>
+            </div>
+            <a
+              class="info__movies-card-size"
+              href="https://www.youtube.com/watch?v=BqhKNoUyu2c"
+            >
+              <img class="info__movies-img" src="img/11.gif" alt="" />
+            </a>
           </article>
           <article class="info__movies-card">
-            <img class="info__movies-img" src="movie4.webp" alt="" />
-            <p>개추요</p>
+            <div class="info__movies-card-screen">
+              <p>퍼시픽 림</p>
+            </div>
+            <a
+              class="info__movies-card-size"
+              href="https://www.youtube.com/watch?v=Y656Pti6-2g"
+            >
+              <img
+                class="info__movies-img"
+                src="img/8ad122cb3bff5e4b217648b1cd477a6b0da00e41.gif"
+                alt=""
+              />
+            </a>
           </article>
         </div>
       </section>
-      <section>
-        <div class="movies_youtube"></div>
+      <section class="section__title-goal">
+        <div class="info__movies">
+          <h2>취업 목표</h2>
+          <h6>| 박치기 공룡임 일단 박고봄</h6>
+        </div>
+        <div class="section__title-goal-list">
+          <article class="section__title-goal-list-graduation">
+            <picture class="photo">
+              <img
+                src="img/BevZjd2K6zTVsAeVNgfdZhqbiDnF0KGjCA_w5l4e7Bq3oHiRFaqWr1MOXkx_qThkcRDmaaOvY2LKdqIo0ajyaA.webp"
+                alt=""
+              />
+              <i class="ri-arrow-right-line"></i>
+            </picture>
+            <h6></h6>
+          </article>
+          <article class="section__title-goal-list-license">
+            <picture class="photo">
+              <img src="img/getShareBadge.do" alt="" />
+              <i class="ri-arrow-right-line"></i>
+            </picture>
+            <h6></h6>
+          </article>
+          <article class="section__title-goal-list-completion">
+            <picture class="photo">
+              <img src="img/title01_logo.png" alt="" />
+              <i class="ri-arrow-right-line"></i>
+            </picture>
+            <h6></h6>
+          </article>
+          <article class="section__title-goal-list-getajob">
+            <picture class="photo__flex-column rotate">
+              <img src="img/서류.jpg" alt="" />
+              <i class="ri-arrow-right-line"></i>
+            </picture>
+            <h6></h6>
+          </article>
+        </div>
+        <div class="section__title-goal-list">
+          <article class="section__title-goal-list-graduation">
+            <picture class="photo">
+              <img src="img/취업성공.jpg" alt="" />
+              <i class="ri-arrow-left-line"></i>
+            </picture>
+            <h6></h6>
+          </article>
+          <article class="section__title-goal-list-license">
+            <picture class="photo">
+              <img src="img/취업.jpg" alt="" />
+              <i class="ri-arrow-left-line"></i>
+            </picture>
+            <h6></h6>
+          </article>
+          <article class="section__title-goal-list-completion">
+            <picture class="photo">
+              <img src="img/서류.jpg" alt="" />
+              <i class="ri-arrow-left-line"></i>
+            </picture>
+            <h6></h6>
+          </article>
+          <article class="section__title-goal-list-getajob">
+            <picture class="photo__flex-column rotate">
+              <img src="img/취업.jpg" alt="" />
+            </picture>
+            <h6></h6>
+          </article>
+        </div>
       </section>
     </main>
   </body>

@@ -1,0 +1,13 @@
+.info_list-box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-self: center;
+  align-self: center;
+}
+.info__movies-box {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-self: center;
+  align-self: center;
+  gap: 20px;
+}
