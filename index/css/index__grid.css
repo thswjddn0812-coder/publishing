@@ -11,3 +11,10 @@
   align-self: center;
   gap: 20px;
 }
+.section__goal-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-self: center;
+  align-self: center;
+  gap: 100px;
+}

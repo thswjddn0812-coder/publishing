@@ -1,0 +1,16 @@
+.footer {
+  width: 100%;
+  height: auto;
+  background-color: #3f51b5;
+}
+.footer__flex {
+  /* width: 100%; */
+  height: auto;
+  display: grid;
+  font-size: 12px;
+  grid-template-columns: repeat(3, 1fr);
+  justify-self: center;
+  align-self: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}

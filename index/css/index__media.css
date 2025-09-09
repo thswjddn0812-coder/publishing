@@ -1,4 +1,4 @@
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 576px) {
   .info_list-box {
     grid-template-columns: repeat(1, 1fr);
   }
@@ -10,5 +10,14 @@
   }
   ul > .hamburger {
     display: block;
+  }
+  .section__goal-list {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .info__movies {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .footer__flex {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
