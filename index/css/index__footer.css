@@ -1,7 +1,8 @@
 .footer {
   width: 100%;
-  height: auto;
+  height: 30%;
   background-color: #3f51b5;
+  overflow: hidden;
 }
 .footer__flex {
   /* width: 100%; */
@@ -9,8 +10,14 @@
   display: grid;
   font-size: 12px;
   grid-template-columns: repeat(3, 1fr);
-  justify-self: center;
-  align-self: center;
+  /* justify-self: center;
+  align-self: center; */
   padding-top: 100px;
   padding-bottom: 100px;
+}
+.footer__flex > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }

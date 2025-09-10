@@ -1,0 +1,148 @@
+.hero {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../img/넷플\ 배경_large.jpg");
+  background-position: 20% 20%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 5px solid red; */
+}
+.hero__background-screen {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.6) 10%,
+    rgba(0, 0, 0, 0.6) 10%,
+    rgba(0, 0, 0, 0.9) 100%
+  );
+  pointer-events: none;
+}
+.hero__background-text {
+  width: 100%;
+  max-width: 960px;
+  height: 45%;
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  top: 35%;
+  justify-content: center;
+  /* border: 1px solid red; */
+}
+.hero__background-text > h1 {
+  color: white;
+  font-size: 60px;
+  font-weight: 900;
+  text-align: center;
+  line-height: 80px;
+  margin-bottom: 16px;
+}
+.hero__background-text > p {
+  color: white;
+  text-align: center;
+  margin-bottom: 32px;
+  font-size: 20px;
+}
+.hero__background-text > h3 {
+  color: white;
+  font-size: 16px;
+  text-align: center;
+}
+.input__email-box {
+  max-width: 960px;
+  width: 100%;
+  height: 40%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: start;
+  gap: 5px;
+  padding-top: 16px;
+  margin: 0 auto;
+}
+.input__email-box > button {
+  width: 17%;
+  height: 40%;
+  background-color: red;
+  color: white;
+  border-radius: 10px;
+  font-size: 25px;
+  border: none;
+  font-weight: 600;
+}
+.input__email {
+  width: 50%;
+  height: 40%;
+  border: 1px solid gray;
+  border-radius: 3px;
+  padding-left: 10px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.background__line {
+  width: 100%;
+  height: 3px;
+  background-color: red;
+  position: absolute;
+  z-index: 1;
+  top: 90%;
+}
+@media screen and (max-width: 576px) {
+  .hero__background-text {
+    max-width: 340px;
+    top: 15%;
+  }
+  .hero__background-text > h1 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .hero__background-text > p {
+    font-size: 17px;
+    line-height: 25px;
+  }
+  .hero__background-text > h3 {
+    font-size: 15px;
+    line-height: 25px;
+  }
+  .input__email-box {
+    width: 100%;
+    max-width: 1000px;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+    /* border: 1px solid red; */
+  }
+  .input__email {
+    width: 100%;
+    height: 30%;
+  }
+  .input__email-box > button {
+    width: 38%;
+    height: 30%;
+  }
+  .input__email-box > button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .input__email-box > button > span {
+    font-size: 17px;
+  }
+  .background__line {
+    width: 100%;
+    height: 10%;
+    object-fit: cover;
+    position: absolute;
+    bottom: 200px;
+    left: 0px;
+    z-index: 1;
+  }
+}
