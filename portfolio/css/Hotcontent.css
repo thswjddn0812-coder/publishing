@@ -1,0 +1,43 @@
+.Hot__content {
+  width: 100%;
+  /* max-width: 960px; */
+  height: auto;
+  background-color: black;
+}
+.Hot__content-deck {
+  width: 100%;
+  height: 400px;
+  max-width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* padding-top: 100px; */
+  /* border: 1px solid red; */
+
+  gap: 30px;
+}
+.text__deck-flex {
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid red; */
+}
+.text__deck-flex > h2 {
+  width: 100%;
+  max-width: 1300px;
+  height: 100%;
+  /* border: 1px solid red; */
+  color: white;
+  text-align: center;
+  margin: 100px auto 0px auto;
+  text-align: start;
+  font-size: 30px;
+  font-weight: 700;
+  padding-left: 70px;
+}
+.Hot__content-card {
+  /* border: 1px solid red; */
+}
+@media screen and (max-width: 576px) {
+}

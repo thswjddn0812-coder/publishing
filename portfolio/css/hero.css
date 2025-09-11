@@ -7,7 +7,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  /* border: 5px solid red; */
 }
 .hero__background-screen {
   width: 100%;
@@ -25,7 +24,7 @@
 }
 .hero__background-text {
   width: 100%;
-  max-width: 960px;
+  max-width: 1300px;
   height: 45%;
   position: absolute;
   z-index: 1;
@@ -33,7 +32,6 @@
   flex-direction: column;
   top: 35%;
   justify-content: center;
-  /* border: 1px solid red; */
 }
 .hero__background-text > h1 {
   color: white;
@@ -55,9 +53,9 @@
   text-align: center;
 }
 .input__email-box {
-  max-width: 960px;
-  width: 100%;
-  height: 40%;
+  max-width: 1300px;
+  width: 75%;
+  height: 35%;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -71,7 +69,7 @@
   height: 40%;
   background-color: red;
   color: white;
-  border-radius: 10px;
+  border-radius: 5px;
   font-size: 25px;
   border: none;
   font-weight: 600;
@@ -89,17 +87,12 @@
   width: 100%;
   height: 7%;
   background-color: red;
-  border-top-left-radius: 50% 100%;
-  border-top-right-radius: 50% 100%;
-  position: absolute;
+  border-top-left-radius: 100% 100%;
+  border-top-right-radius: 100% 100%;
+  position: relative;
   z-index: 1;
-  top: 90%;
-  background: radial-gradient(
-      50% 500% at 50% -420%,
-      rgba(64, 97, 231, 0.4) 80%,
-      rgba(0, 0, 0, 0.1) 100%
-    ),
-    black;
+  top: 43%;
+
   background: linear-gradient(
     to right,
     rgba(33, 13, 22, 1) 16%,
@@ -109,6 +102,78 @@
     rgba(33, 13, 22, 1) 84%
   );
 }
+.background__inline {
+  width: 100%;
+  height: 10%;
+  background-color: red;
+  border-top-left-radius: 50% 25%;
+  border-top-right-radius: 50% 25%;
+  position: absolute;
+  z-index: 1;
+  top: 90%;
+  background: radial-gradient(
+      50% 500% at 50% -420%,
+      rgba(64, 97, 231, 0.4) 80%,
+      rgba(0, 0, 0, 0.1) 100%
+    ),
+    black;
+}
+.membership {
+  position: absolute;
+  top: 50%;
+  left: 17%;
+  width: 100%;
+  max-width: 1300px;
+  height: 100px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.membership > img {
+  width: 10%;
+  height: 100%;
+  object-fit: contain;
+}
+.membership__textbox {
+  width: 80%;
+  height: 80%;
+  background-image: linear-gradient(
+    to right,
+    #30233d,
+    #2c223e,
+    #27213f,
+    #212040,
+    #1a1f41
+  );
+  color: white;
+  border: none;
+  font-size: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+  /* border: 1px solid red; */
+}
+.membership__textbox > .membership__btn {
+  background-color: #383b60;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  width: 20%;
+  height: 50%;
+}
+.membership__textbox-textflex {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+
 @media screen and (max-width: 576px) {
   .hero__background-text {
     max-width: 340px;
@@ -133,7 +198,6 @@
     justify-content: start;
     align-items: center;
     gap: 20px;
-    /* border: 1px solid red; */
   }
   .input__email {
     width: 100%;
@@ -152,13 +216,107 @@
   .input__email-box > button > span {
     font-size: 17px;
   }
-  .background__line {
+  /* .background__line {
     width: 100%;
     height: 10%;
     object-fit: cover;
     position: absolute;
-    bottom: 200px;
+    bottom: 100px;
     left: 0px;
     z-index: 1;
+  } */
+  .background__line {
+    width: 100%;
+    height: 7%;
+    background-color: red;
+    border-top-left-radius: 100% 100%;
+    border-top-right-radius: 100% 100%;
+    position: relative;
+    z-index: 1;
+    top: 18%;
+
+    background: linear-gradient(
+      to right,
+      rgba(33, 13, 22, 1) 1%,
+      rgba(184, 40, 105, 1),
+      rgba(229, 9, 20, 1),
+      rgba(184, 40, 105, 1),
+      rgba(33, 13, 22, 1) 100%
+    );
+  }
+  .background__inline {
+    width: 100%;
+    height: 10%;
+    background-color: red;
+    border-top-left-radius: 100% 50%;
+    border-top-right-radius: 100% 50%;
+    position: absolute;
+    z-index: 1;
+    top: 65.1%;
+    background: radial-gradient(
+        50% 500% at 50% -420%,
+        rgba(64, 97, 231, 0.4) 80%,
+        rgba(0, 0, 0, 0.1) 100%
+      ),
+      black;
+  }
+  .membership {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    width: 100%;
+    max-width: 1300px;
+    height: 200px;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 100px;
+  }
+  .membership__textbox {
+    width: 80%;
+    height: 70%;
+    background-image: linear-gradient(
+      to right,
+      #30233d,
+      #2c223e,
+      #27213f,
+      #212040,
+      #1a1f41
+    );
+    color: white;
+    border: none;
+    font-size: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 20px;
+    /* border: 1px solid red; */
+    padding: 0 10px;
+  }
+  .membership__textbox > .membership__btn {
+    background-color: #383b60;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    width: 40%;
+    height: 25%;
+  }
+
+  .membership__textbox-fontsize {
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .membership > img {
+    width: 70px;
+    height: auto;
+    /* border: 1px solid red; */
+    position: absolute;
+    bottom: 160px;
+    left: 0px;
   }
 }
